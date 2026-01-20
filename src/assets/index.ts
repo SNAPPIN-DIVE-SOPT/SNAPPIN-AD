@@ -10,3 +10,5 @@ export { default as IconChip차가운 } from './icon-chip-차가운.svg';
 export { default as IconChip청량한 } from './icon-chip-청량한.svg';
 export { default as IconChip투명한 } from './icon-chip-투명한.svg';
 export { default as IconChipY2K } from './icon-chip-Y2K.svg';
+export { default as IconLogo } from './logo.svg';
+export { default as IconSmallLogo } from './small-logo.svg';
