@@ -1,7 +1,7 @@
-import React from 'react';
-import Image from 'next/image';
-import BackgroundImage from '@/public/imgs/image-background.png';
-import { IconLogo, IconSmallLogo } from '@/src/assets';
+import React from "react";
+import Image from "next/image";
+import BackgroundImage from "@/public/imgs/image-background.png";
+import { IconLogo, IconSmallLogo, IconLogoFull } from "@/src/assets";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -34,9 +34,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       </div>
 
       {/* 하단 로고 */}
-      <IconSmallLogo className="mt-[4.7rem] mb-[2.7rem]"/>
+      <IconSmallLogo className="mt-[4.7rem] mb-[2.7rem]" />
 
       {children}
+
+      {/* 하단 간단 소개 영역 */}
+      <div className="flex flex-col items-center mt-[8.1rem] gap-[0.4rem] mb-[8rem]">
+        <IconLogoFull className="w-[8.5rem] h-[1.5rem]" />
+        <p className="text-center text-black-7 caption-14-md">
+          ©2026 Snappin’ All rights reserved
+        </p>
+      </div>
     </div>
   );
 }

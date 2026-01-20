@@ -12,3 +12,5 @@ export { default as IconChip투명한 } from './icon-chip-투명한.svg';
 export { default as IconChipY2K } from './icon-chip-Y2K.svg';
 export { default as IconLogo } from './logo.svg';
 export { default as IconSmallLogo } from './small-logo.svg';
+export { default as IconArrows } from './icon-arrows.svg';
+export { default as IconLogoFull } from './logo-full.svg';
