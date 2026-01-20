@@ -2,10 +2,12 @@
 import Button from '@/src/components/Button'
 import { useRouter } from 'next/navigation';
 
-type ClientFooterProps = {
+type ClientButtonProps = {
   buttonText: string;
+  route: string;
 }
-export default function ClientFooter({ buttonText }: ClientFooterProps) {
+
+export default function ClientButton({ buttonText, route }: ClientButtonProps) {
   const router = useRouter();
   
   const handleButtonClick = () => {
@@ -13,7 +15,7 @@ export default function ClientFooter({ buttonText }: ClientFooterProps) {
       button_name: `${buttonText}_click`,
       page_path: '/client',
     });
-    router.push("/login");
+    router.push(route);
   }
 
   return (

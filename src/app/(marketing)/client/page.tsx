@@ -3,7 +3,7 @@ import ImageClientProduct from "@/public/imgs/image-client-product.png";
 import ImageClientReserve from "@/public/imgs/image-client-reserve.png";
 import Image from "next/image";
 import MoodAnimation from "../_components/MoodAnimation";
-import ClientFooter from "./components/ClientFooter";
+import ClientButton from "./components/ClientButton";
 
 export default function Page() {
   return (
@@ -24,7 +24,7 @@ export default function Page() {
         <Image src={ImageClientMoodTest} alt="클라이언트 무드 테스트 이미지" />
       </div>
       <MoodAnimation />
-      <ClientFooter buttonText="AI 무드 큐레이션 받아보기" />
+      <ClientButton buttonText="AI 무드 큐레이션 받아보기" route="/login-ai-curation" />
       <div className="flex flex-col gap-[3.8rem] mt-[8rem]">
         <div className="flex flex-col gap-[0.7rem] text-center">
           <h1 className="text-black-1  title-23-eb">
@@ -40,7 +40,7 @@ export default function Page() {
         </div>
         <Image src={ImageClientProduct} alt="클라이언트 스냅 상품 이미지" />
       </div>
-      <ClientFooter buttonText="무드 스냅 상품 둘러보기" />
+      <ClientButton buttonText="무드 스냅 상품 둘러보기" route="/login-mood-snap" />
       <div className="flex flex-col gap-[3.8rem] mt-[8rem]">
         <div className="flex flex-col gap-[0.7rem] text-center">
           <h1 className="text-black-1  title-23-eb">
@@ -58,7 +58,7 @@ export default function Page() {
           alt="클라이언트 스냅 예약 정보 이미지"
         />
       </div>
-      <ClientFooter buttonText="무드 스냅 예약하기" />
+      <ClientButton buttonText="무드 스냅 예약하기" route="/login-mood-snap-reserve" />
     </div>
   );
 }
