@@ -22,7 +22,7 @@ export default function Page() {
         <Image src={ImagePhotographerAi} alt="작가 ai 이미지" />
       </div>
       <MoodAnimation />
-      <div className="flex flex-col gap-[3.8rem] mt-[4.6rem]">
+      <div className="flex flex-col gap-[3.8rem] mt-[12.6rem]">
         <div className="flex flex-col gap-[0.7rem] text-center">
           <h1 className="text-black-1  title-23-eb">
             여러 플랫폼에 흩어져 있던 <br />

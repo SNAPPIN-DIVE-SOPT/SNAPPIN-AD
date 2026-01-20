@@ -13,7 +13,7 @@ export default function MoodAnimation({
   tiltDeg = -8,
 }: EscalatorChipsProps) {
   return (
-    <div className="relative w-full mt-[3rem] mb-[8rem]">
+    <div className="relative w-full mt-[3rem]">
       {/* 위 띠: 왼 → 오 */}
       <div
         className="relative"

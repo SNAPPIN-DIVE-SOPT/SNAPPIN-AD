@@ -2,8 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { ImageCarousel, TagChip } from '@/ui';
-import { MoodCode } from '@/types/moodCode';
+import ImageCarousel from '@/src/components/ImageCarousel'
 import { IMAGE_SLIDE_MOCK } from './ImageSlide.mock';
 
 const SIDE_OFFSET = 110;
@@ -91,7 +90,7 @@ export default function ImageSlide() {
               <div className='pointer-events-none absolute bottom-[1.3rem] left-[1.2rem] z-40 flex flex-col gap-[0.8rem]'>
                 <div className='flex gap-[0.6rem]'>
                   {center.moods.map((mood) => (
-                    <TagChip key={mood} variant='transparent' label={mood as MoodCode} />
+                    <TagChip key={mood} mood={mood} />
                   ))}
                 </div>
                 <p className='caption-12-md text-black-1'>{center.photographerName}</p>
@@ -102,4 +101,12 @@ export default function ImageSlide() {
       </div>
     </div>
   );
+}
+
+const TagChip = ({ mood }: { mood: string }) => {
+  return (
+    <div className='px-[0.6rem] py-[0.3rem] rounded-[0.3rem] shrink-0 bg-transparent border-[0.7px] border-neon-black'>
+      <p className='caption-12-md text-neon-black'>{mood}</p>
+    </div>
+  )
 }

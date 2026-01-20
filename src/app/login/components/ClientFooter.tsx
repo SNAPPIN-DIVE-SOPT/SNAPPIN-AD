@@ -4,15 +4,14 @@ import Button from "@/src/components/Button";
 export default function ClientFooter() {
   const handleButtonClick = () => {
     window.open(
-      "https://pretty-shake-931.notion.site/Snappin-2eea9c9b4473802d9d2ddcb2a202bc18?source=copy_link",
+      "https://www.instagram.com/snapping.mag/",
       "_blank",
     );
   };
   return (
     <Button
-      buttonText="작가 입점 방법 알아보기"
+      buttonText="OPEN 소식 받아보기"
       onClick={handleButtonClick}
-      className="mt-[5.1rem]"
     />
   );
 }
