@@ -1,7 +1,7 @@
 import ImagePhotographerAi from "@/public/imgs/image-photographer-ai.png"
 import ImagePhotographerRegister  from "@/public/imgs/image-photographer-register.png"
 import Image from 'next/image'
-import MoodAnimation from "./components/MoodAnimation"
+import MoodAnimation from "../_components/MoodAnimation"
 import ClientFooter from "./components/ClientFooter"
 
 export default function Page() {
