@@ -16,7 +16,7 @@ export default function Page() {
           </h1>
           <h2 className="caption-14-rg text-black-6 ">
             내 무드를 좋아해주는 고객과 연결되어
-            <br />더 만족스러운 스냅 촬영 경험을 선물하세요
+            <br />더 만족스러운 스냅 촬영 경험을 선물하세요.
           </h2>
         </div>
         <Image src={ImagePhotographerAi} alt="작가 ai 이미지" />

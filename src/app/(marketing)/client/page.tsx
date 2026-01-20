@@ -18,7 +18,7 @@ export default function Page() {
           <h2 className="caption-14-rg text-black-6 ">
             나도 몰랐던 나의 스냅 추구미,
             <br />
-            AI 무드 테스트로 만족스러운 스냅 촬영을 경험하세요
+            AI 무드 테스트로 만족스러운 스냅 촬영을 경험하세요.
           </h2>
         </div>
         <Image src={ImageClientMoodTest} alt="클라이언트 무드 테스트 이미지" />
@@ -33,8 +33,9 @@ export default function Page() {
             스냅 상품을 한 눈에,
           </h1>
           <h2 className="caption-14-rg text-black-6 ">
-            여러 채널로 나뉘어 있던 예약 현황을
-            <br />내 예약 탭에서 관리하세요.
+            무드, 장소, 일정 기반 검색 필터링으로
+            <br />
+            내가 원하는 조건에 딱 맞는 작가를 검색해보세요.
           </h2>
         </div>
         <Image src={ImageClientProduct} alt="클라이언트 스냅 상품 이미지" />
