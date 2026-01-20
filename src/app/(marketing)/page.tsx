@@ -1,5 +1,8 @@
-export default function page() {
+import { IconChip내추럴 } from '@/src/assets';
+    export default function page() {
   return (
-    <div>page</div>
+    <div>
+      <IconChip내추럴 />
+    </div>
   )
 }
