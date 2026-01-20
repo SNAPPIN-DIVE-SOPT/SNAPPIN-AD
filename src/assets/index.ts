@@ -1,15 +1,3 @@
-export { default as IconChip내추럴 } from './icon-chip-내추럴.svg';
-export { default as IconChip디지털 } from './icon-chip-디지털.svg';
-export { default as IconChip따스한 } from './icon-chip-따스한.svg';
-export { default as IconChip뚜렷한 } from './icon-chip-뚜렷한.svg';
-export { default as IconChip몽환적인 } from './icon-chip-몽환적인.svg';
-export { default as IconChip서사적인 } from './icon-chip-서사적인.svg';
-export { default as IconChip아날로그 } from './icon-chip-아날로그.svg';
-export { default as IconChip연출된 } from './icon-chip-연출된.svg';
-export { default as IconChip차가운 } from './icon-chip-차가운.svg';
-export { default as IconChip청량한 } from './icon-chip-청량한.svg';
-export { default as IconChip투명한 } from './icon-chip-투명한.svg';
-export { default as IconChipY2K } from './icon-chip-Y2K.svg';
 export { default as IconLogo } from './logo.svg';
 export { default as IconSmallLogo } from './small-logo.svg';
 export { default as IconArrows } from './icon-arrows.svg';
