@@ -7,9 +7,15 @@ type ClientFooterProps = {
 }
 export default function ClientFooter({ buttonText }: ClientFooterProps) {
   const router = useRouter();
+  
   const handleButtonClick = () => {
+    window.gtag?.('event', 'button_click', {
+      button_name: `${buttonText}_click`,
+      page_path: '/client',
+    });
     router.push("/login");
   }
+
   return (
     <Button buttonText={buttonText} onClick={handleButtonClick} className='mt-[5.1rem]' />
   );
